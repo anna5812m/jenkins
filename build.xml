@@ -1,6 +1,0 @@
-<project name="jenkins" default="compile" basedir=".">
-    <target name="compile">
-        <mkdir dir="bin"/>
-        <javac srcdir="src" destdir="bin"/>
-    </target>
-</project>
